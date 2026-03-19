@@ -1,0 +1,18 @@
+                                   H1 - Título Principal (🏀 BASQUETE)
+        
+                                         P - Introdução
+  
+  
+  H2 - Materiais Necessários
+             UL/LI - Lista de materiais
+             H3 - Onde Comprar
+
+  H2 - Como Praticar
+             H3 - Treinos para Iniciantes
+            H3 - Onde Praticar
+  
+  H2 - Regras Principais
+            UL/LI - Lista de regras
+  
+  H2 - Links de Referência
+            UL/LI - Lista com 5 links <a>
