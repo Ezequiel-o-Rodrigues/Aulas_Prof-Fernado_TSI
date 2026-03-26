@@ -3,114 +3,170 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>A História da Internet - Simples</title>
-  
+
+  <title>A História da Internet — Aula 4</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f0f4f8;
-      color: #333;
+    :root{
+      --bg: #eaf3ff;
+      --box: #ffffff;
+      --border: #b9d6ff;
+
+      --t1: #163a5f;
+      --t2: #7a1f3d;
+      --t3: #0b6b53;
+
+      --muted: #2c3e50;
+    }
+
+    *{ box-sizing: border-box; }
+
+    body{
       margin: 0;
-      padding: 20px;
-      line-height: 1.6;
+      background: var(--bg);
+      font-family: "Nunito", sans-serif;
+      color: var(--muted);
+      line-height: 1.7;
     }
 
-    .container {
-      max-width: 800px;
+    header{
+      padding: 22px 14px 10px;
+      text-align: center;
+    }
+
+    h1{
+      margin: 0;
+      font-family: "Patua One", serif;
+      color: var(--t1);
+      letter-spacing: 0.3px;
+      font-size: clamp(26px, 3.5vw, 40px);
+    }
+
+    .sub{
+      margin: 8px auto 0;
+      max-width: 780px;
+      color: #24445f;
+      font-size: 15px;
+    }
+
+    main{
+      max-width: 860px;
       margin: 0 auto;
-      background-color: white;
-      padding: 30px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
+      padding: 14px;
     }
 
-    header {
+    .box{
+      background: var(--box);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 16px 6px;
+    }
+
+    h2{
+      margin: 18px 0 8px;
+      font-family: "Patua One", serif;
+      font-weight: 400;
+      font-size: 22px;
+    }
+
+    .c1{ color: var(--t1); }
+    .c2{ color: var(--t2); }
+    .c3{ color: var(--t3); }
+
+    p{
+      margin: 0 0 14px;
+      font-size: 16px;
+    }
+
+    .linha{
+      height: 2px;
+      background: linear-gradient(90deg, var(--t1), var(--t2), var(--t3));
+      border-radius: 99px;
+      margin: 12px 0 6px;
+      opacity: 0.55;
+    }
+
+    footer{
       text-align: center;
-      border-bottom: 2px solid #ddd;
-      margin-bottom: 20px;
-      padding-bottom: 10px;
-    }
-
-    h1 {
-      color: #003366;
-      margin-bottom: 5px;
-    }
-
-    .subtitulo {
-      color: #666;
-      font-style: italic;
-    }
-
-    .azul { color: #0056b3; }
-    .vermelho { color: #a52a2a; }
-    .verde { color: #2e8b57; }
-
-    h2 {
-      margin-top: 25px;
-      border-left: 5px solid #ddd;
-      padding-left: 10px;
-    }
-
-    footer {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 0.9em;
-      color: #888;
+      padding: 18px 14px 26px;
+      color: #355a77;
+      font-size: 13px;
     }
   </style>
 </head>
-
 <body>
+  <header>
+    <h1>A História da Internet</h1>
+    <p class="sub">Atividade da Aula 4: um resumo em parágrafos, com títulos e cores diferentes no texto.</p>
+  </header>
 
-  <div class="container">
-    <header>
-      <h1>A História da Internet</h1>
-      <p class="subtitulo">Um resumo simples dos principais marcos da rede mundial.</p>
-    </header>
+  <main>
+    <section class="box">
+      <div class="linha"></div>
 
-    <main>
-      <section>
-        <h2 class="azul">1) O Início (Anos 60)</h2>
-        <p class="azul">
-          A internet começou como um projeto militar e acadêmico nos EUA chamado ARPANET. O objetivo era conectar computadores para que informações não fossem perdidas se um ponto da rede fosse destruído.
-        </p>
+      <h2 class="c1">1) Como tudo começou</h2>
+      <p class="c1">
+        A Internet não surgiu pronta do jeito que usamos hoje. Ela foi se formando aos poucos, a partir de ideias de conexão entre computadores, principalmente para troca de informações com mais rapidez.
+      </p>
 
-        <h2 class="vermelho">2) A "Língua" dos Computadores</h2>
-        <p class="vermelho">
-          Para que computadores diferentes pudessem conversar, foram criados os protocolos (como o TCP/IP). Foi nessa época que a rede começou a crescer e sair do ambiente puramente militar.
-        </p>
+      <h2 class="c2">2) ARPANET e as primeiras conexões</h2>
+      <p class="c2">
+        Um dos primeiros passos foi a ARPANET, um projeto antigo que ajudou a ligar universidades e centros de pesquisa. Essa rede foi muito importante para mostrar que era possível conectar máquinas distantes.
+      </p>
 
-        <h2 class="verde">3) A Criação da WWW (Anos 90)</h2>
-        <p class="verde">
-          Tim Berners-Lee inventou a World Wide Web. Graças a ele, passamos a usar o "www" e a navegar por páginas usando links, o que tornou a internet muito mais fácil para pessoas comuns.
-        </p>
+      <h2 class="c3">3) A evolução das redes</h2>
+      <p class="c3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer euismod, massa a feugiat luctus, risus nulla aliquet lorem, sed cursus libero urna eget sem.
+      </p>
 
-        <h2 class="azul">4) Os Navegadores</h2>
-        <p class="azul">
-          Antigamente, a internet era só texto. Com o surgimento de navegadores como o Mosaic e o Internet Explorer, as páginas ganharam imagens, cores e ficaram visivelmente mais atraentes.
-        </p>
+      <h2 class="c1">4) Protocolos e padronização</h2>
+      <p class="c1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel velit sed justo blandit bibendum. Vivamus porta, urna non facilisis ultricies, dolor odio porta arcu.
+      </p>
 
-        <h2 class="vermelho">5) A Era das Redes Sociais</h2>
-        <p class="vermelho">
-          Nos anos 2000, a internet deixou de ser apenas um lugar para ler conteúdo e virou um lugar para interagir. Surgiram sites como Orkut, Facebook e YouTube, mudando como nos comunicamos.
-        </p>
+      <h2 class="c2">5) O nascimento da “rede das redes”</h2>
+      <p class="c2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dictum, erat et sodales blandit, lorem lacus maximus nisl, sed congue dui justo sed velit.
+      </p>
 
-        <h2 class="verde">6) Internet no Bolso</h2>
-        <p class="verde">
-          Com o surgimento dos smartphones, a internet passou a estar conosco o tempo todo. Hoje, usamos a rede para pedir comida, chamar transporte, estudar e trabalhar de qualquer lugar.
-        </p>
+      <h2 class="c3">6) A criação da Web</h2>
+      <p class="c3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis finibus massa. Morbi ac neque ac elit pretium vulputate. Suspendisse potenti.
+      </p>
 
-        <h2 class="azul">Conclusão</h2>
-        <p class="azul">
-          A internet evoluiu de um sistema fechado de mensagens para uma rede global essencial. Ela continua mudando o mundo e a forma como a sociedade se organiza.
-        </p>
-      </section>
-    </main>
+      <h2 class="c1">7) Navegadores e páginas</h2>
+      <p class="c1">
+        Com a Web, surgiram os navegadores e as páginas como conhecemos. Isso facilitou muito o acesso, pois as pessoas passaram a clicar em links e visitar sites, em vez de usar apenas comandos técnicos.
+      </p>
 
-    <footer>
-      Atividade de Aula — Introdução ao Desenvolvimento Web
-    </footer>
-  </div>
+      <h2 class="c2">8) A Internet chegando nas casas</h2>
+      <p class="c2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod, massa at luctus sodales, augue mi blandit arcu, eu porta elit erat quis leo.
+      </p>
 
+      <h2 class="c3">9) Redes sociais e comunicação</h2>
+      <p class="c3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia, magna at molestie aliquam, est mi eleifend dui, sed vulputate mi mi in urna.
+      </p>
+
+      <h2 class="c1">10) Internet hoje</h2>
+      <p class="c1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean iaculis tincidunt sem, in laoreet ipsum posuere id. Aliquam erat volutpat. Donec et nisi non risus.
+      </p>
+
+      <h2 class="c2">Conclusão</h2>
+      <p class="c2">
+        A Internet mudou a forma de estudar, trabalhar e se comunicar. Mesmo tendo começado como um projeto de conexão entre poucos computadores, hoje ela é essencial no dia a dia e continua evoluindo.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Feito para a Aula 4 — História da Internet (HTML).
+  </footer>
 </body>
 </html>
