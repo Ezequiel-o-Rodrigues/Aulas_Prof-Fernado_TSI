@@ -1,0 +1,92 @@
+body {
+    font-family: Verdana, sans-serif;
+    color: green;
+    background-color: #b71c1c;
+    margin: 0;
+}
+
+header {
+    background-color: #b71c1c;
+    color: gold;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #7f0000;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    font-family: "Brush Script MT", cursive;
+    color: #b71c1c;
+}
+
+img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #b71c1c;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    color: green;
+}
+
+th {
+    background-color: #b71c1c;
+    color: gold;
+}
+
+form {
+    max-width: 400px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+form button {
+    background-color: #b71c1c;
+    color: gold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7f0000;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

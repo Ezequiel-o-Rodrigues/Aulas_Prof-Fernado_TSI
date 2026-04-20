@@ -1,0 +1,91 @@
+body {
+    font-family: Georgia, serif;
+    color: gold;
+    background-color: #0d47a1;
+    margin: 0;
+}
+
+header {
+    background-color: #0d47a1;
+    color: gold;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #002171;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: gold;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: gold;
+}
+
+img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid gold;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    color: gold;
+}
+
+th {
+    background-color: #002171;
+    color: gold;
+}
+
+form {
+    max-width: 400px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+form button {
+    background-color: gold;
+    color: #0d47a1;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #002171;
+    color: gold;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
