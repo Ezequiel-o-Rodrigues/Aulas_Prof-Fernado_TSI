@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva - Paraíso Viagens</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>Paraíso Viagens</h1>
+    <p>Sua agência especializada em destinos incríveis</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="noronha.html">Roteiro Noronha</a>
+    <a href="reserva.html">Faça sua Reserva</a>
+</nav>
+
+<main>
+    <h2>Faça sua Reserva</h2>
+
+    <p>
+        Preencha o formulário abaixo e entraremos em contato em até 24 horas com
+        a confirmação e as opções de pagamento disponíveis.
+    </p>
+
+    <div class="destaque">
+        <strong>Pacotes Fernando de Noronha &mdash; 2025</strong><br>
+        5 dias / 4 noites &mdash; a partir de R$ 4.500 por pessoa (aéreo + hospedagem + passeios)
+    </div>
+
+    <h2>Formulário de Reserva</h2>
+
+    <form action="#" method="post">
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com">
+
+        <label for="telefone">Telefone / WhatsApp:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+        <label for="destino">Destino:</label>
+        <select id="destino" name="destino">
+            <option value="">Selecione o destino</option>
+            <option value="noronha">Fernando de Noronha &mdash; PE</option>
+            <option value="jeri">Jericoacoara &mdash; CE</option>
+            <option value="bonito">Bonito &mdash; MS</option>
+        </select>
+
+        <label for="chegada">Data de chegada:</label>
+        <input type="date" id="chegada" name="chegada">
+
+        <label for="saida">Data de saída:</label>
+        <input type="date" id="saida" name="saida">
+
+        <label for="pessoas">Número de pessoas:</label>
+        <select id="pessoas" name="pessoas">
+            <option value="1">1 pessoa</option>
+            <option value="2">2 pessoas</option>
+            <option value="3">3 pessoas</option>
+            <option value="4">4 pessoas</option>
+            <option value="5">5 ou mais pessoas</option>
+        </select>
+
+        <label for="mensagem">Observações ou dúvidas:</label>
+        <textarea id="mensagem" name="mensagem" rows="5"
+            placeholder="Ex: preciso de quarto com vista para o mar, viajo com criança, etc."></textarea>
+
+        <br>
+        <input type="submit" value="Enviar Solicitação">
+
+    </form>
+
+    <h2>Nossos Pacotes</h2>
+
+    <table>
+        <tr>
+            <th>Pacote</th>
+            <th>Destino</th>
+            <th>Duração</th>
+            <th>Valor por pessoa</th>
+        </tr>
+        <tr>
+            <td>Básico</td>
+            <td>Fernando de Noronha</td>
+            <td>5 dias / 4 noites</td>
+            <td>R$ 4.500</td>
+        </tr>
+        <tr>
+            <td>Completo</td>
+            <td>Fernando de Noronha</td>
+            <td>7 dias / 6 noites</td>
+            <td>R$ 6.200</td>
+        </tr>
+        <tr>
+            <td>Premium</td>
+            <td>Fernando de Noronha</td>
+            <td>7 dias / 6 noites</td>
+            <td>R$ 8.900</td>
+        </tr>
+        <tr>
+            <td>Básico</td>
+            <td>Jericoacoara</td>
+            <td>5 dias / 4 noites</td>
+            <td>R$ 2.800</td>
+        </tr>
+        <tr>
+            <td>Básico</td>
+            <td>Bonito</td>
+            <td>5 dias / 4 noites</td>
+            <td>R$ 3.100</td>
+        </tr>
+    </table>
+
+    <div class="destaque">
+        <strong>Formas de pagamento:</strong> PIX, cartão de crédito em até 12x sem juros
+        ou transferência bancária. Consulte condições de parcelamento.
+    </div>
+</main>
+
+<footer>
+    <p>Paraíso Viagens &mdash; Agência de Turismo</p>
+    <p>Telefone: (11) 99999-0000 | E-mail: contato@paraisoviagens.com.br</p>
+    <p>&copy; 2025 Paraíso Viagens. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
