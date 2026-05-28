@@ -1,0 +1,235 @@
+/* ===== TEMA PADRAO: verde, Arial, preto ===== */
+body {
+    background-color: #2e7d32;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== JULHO: Azul, Times New Roman, branco ===== */
+body.julho {
+    background-color: #1565c0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ===== OUTUBRO: Rosa, Arial, branco ===== */
+body.outubro {
+    background-color: #e91e8c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* ===== NOVEMBRO: Azul escuro, Courier New, amarelo ===== */
+body.novembro {
+    background-color: #0d47a1;
+    color: #ffd600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ===== DEZEMBRO: Vermelho, Georgia, dourado ===== */
+body.dezembro {
+    background-color: #b71c1c;
+    color: #ffd700;
+    font-family: Georgia, serif;
+}
+
+/* ===== CABECALHO ===== */
+header {
+    background-color: #1b5e20;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+body.julho   header { background-color: #0d3c8e; }
+body.outubro header { background-color: #880e4f; }
+body.novembro header { background-color: #01317a; }
+body.dezembro header { background-color: #7f0000; }
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+    color: white;
+}
+
+header p {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: #c8e6c9;
+}
+
+body.julho   header p { color: #ddd; }
+body.outubro header p { color: #ddd; }
+body.novembro header p { color: #ddd; }
+body.dezembro header p { color: #ddd; }
+
+/* ===== MENU ===== */
+nav {
+    background-color: #388e3c;
+    padding: 8px 0;
+    text-align: center;
+}
+
+body.julho   nav { background-color: #1976d2; }
+body.outubro nav { background-color: #c2185b; }
+body.novembro nav { background-color: #1565c0; }
+body.dezembro nav { background-color: #c62828; }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== CONTEUDO PRINCIPAL ===== */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+    padding: 20px 30px;
+    border: 2px solid #1b5e20;
+}
+
+body.julho   main { border-color: #1565c0; }
+body.outubro main { border-color: #880e4f; }
+body.novembro main { border-color: #ffd600; }
+body.dezembro main { border-color: #ffd700; }
+
+main h2 {
+    color: #1b5e20;
+    border-bottom: 2px solid #1b5e20;
+    padding-bottom: 5px;
+}
+
+body.julho   main h2 { color: #1565c0; border-bottom-color: #1565c0; }
+body.outubro main h2 { color: #c2185b; border-bottom-color: #c2185b; }
+body.novembro main h2 { color: #0d47a1; border-bottom-color: #0d47a1; }
+body.dezembro main h2 { color: #b71c1c; border-bottom-color: #b71c1c; }
+
+/* ===== AVISO ===== */
+.aviso {
+    background-color: #e8f5e9;
+    border-left: 4px solid #2e7d32;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: black;
+}
+
+body.julho   .aviso { background-color: #e3f2fd; border-left-color: #1565c0; }
+body.outubro .aviso { background-color: #fce4ec; border-left-color: #c2185b; }
+body.novembro .aviso { background-color: #e8eaf6; border-left-color: #0d47a1; }
+body.dezembro .aviso { background-color: #fff3e0; border-left-color: #b71c1c; }
+
+/* ===== TABELA ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: #2e7d32;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+body.julho   th { background-color: #1565c0; }
+body.outubro th { background-color: #c2185b; }
+body.novembro th { background-color: #0d47a1; }
+body.dezembro th { background-color: #b71c1c; }
+
+td {
+    padding: 7px 8px;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    background-color: white;
+}
+
+tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+/* ===== BOTAO ===== */
+.botao {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    padding: 8px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+body.julho   .botao { background-color: #1565c0; }
+body.outubro .botao { background-color: #c2185b; }
+body.novembro .botao { background-color: #0d47a1; }
+body.dezembro .botao { background-color: #b71c1c; }
+
+.botao:hover {
+    opacity: 0.85;
+}
+
+/* ===== CARD ===== */
+.card {
+    border: 1px solid #ccc;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #1b5e20;
+}
+
+body.julho   .card h3 { color: #1565c0; }
+body.outubro .card h3 { color: #c2185b; }
+body.novembro .card h3 { color: #0d47a1; }
+body.dezembro .card h3 { color: #b71c1c; }
+
+/* ===== FORMULARIO ===== */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0 12px;
+    border: 1px solid #aaa;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    color: black;
+    background-color: white;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 8px;
+    color: black;
+}
+
+/* ===== RODAPE ===== */
+footer {
+    background-color: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+body.julho   footer { background-color: #0d3c8e; }
+body.outubro footer { background-color: #880e4f; }
+body.novembro footer { background-color: #01317a; }
+body.dezembro footer { background-color: #7f0000; }
