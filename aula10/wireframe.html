@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MundoCell - Wireframe</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #e9eef3;
+            color: #333;
+            padding: 30px 15px;
+            line-height: 1.5;
+        }
+        h1 {
+            text-align: center;
+            color: #0d47a1;
+            margin-bottom: 5px;
+        }
+        .intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 35px auto;
+            color: #555;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+        }
+        .pagina {
+            width: 420px;
+            max-width: 100%;
+        }
+        .pagina > h2 {
+            text-align: center;
+            background-color: #0d47a1;
+            color: white;
+            padding: 8px;
+            border-radius: 6px 6px 0 0;
+        }
+        .tela {
+            border: 2px solid #333;
+            border-top: none;
+            background-color: #fff;
+            padding: 12px;
+        }
+        /* Cada bloco do wireframe */
+        .bloco {
+            border: 2px dashed #888;
+            background-color: #f1f3f5;
+            text-align: center;
+            padding: 14px 8px;
+            margin-bottom: 10px;
+            color: #444;
+            font-weight: bold;
+        }
+        .bloco small {
+            display: block;
+            font-weight: normal;
+            color: #777;
+            margin-top: 4px;
+        }
+        .menu { background-color: #d6e4ff; }
+        .menu2 { background-color: #fff0d6; }
+        .destaque-bloco { background-color: #e8f5e9; }
+        .rodape { background-color: #e0e0e0; }
+        /* Linha com varios quadrados (imagens / modelos) */
+        .linha {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
+        }
+        .linha .quadro {
+            flex: 1;
+            border: 2px dashed #888;
+            background-color: #f1f3f5;
+            text-align: center;
+            padding: 25px 4px;
+            font-size: 0.85em;
+            color: #555;
+        }
+        .img-icone { font-size: 1.6em; color: #999; }
+        .legenda {
+            max-width: 900px;
+            margin: 40px auto 0 auto;
+            background-color: #fff;
+            border-left: 5px solid #ff6f00;
+            padding: 15px 20px;
+            border-radius: 6px;
+        }
+        .legenda h3 { color: #0d47a1; margin-bottom: 8px; }
+        .legenda li { margin-bottom: 5px; margin-left: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>Wireframe do site MundoCell</h1>
+    <p class="intro">Abaixo esta o esqueleto (rascunho de layout) das paginas do site, mostrando onde fica cada parte antes do design final.</p>
+
+    <div class="container">
+
+        <!-- WIREFRAME DA PAGINA PRINCIPAL -->
+        <div class="pagina">
+            <h2>Pagina Principal (index)</h2>
+            <div class="tela">
+                <div class="bloco">CABECALHO
+                    <small>Logo / nome da loja + slogan</small>
+                </div>
+                <div class="bloco menu">MENU PRINCIPAL
+                    <small>Links: Inicio | Apple | Samsung | Xiaomi | Motorola | Realme</small>
+                </div>
+                <div class="bloco menu2">MENU SECUNDARIO (so aqui)
+                    <small>Botoes para cada fabricante</small>
+                </div>
+                <div class="bloco">TEXTO DE APRESENTACAO DA LOJA
+                    <small>(so na pagina principal)</small>
+                </div>
+                <div class="linha">
+                    <div class="quadro"><div class="img-icone">&#128247;</div>Imagem</div>
+                    <div class="quadro"><div class="img-icone">&#128247;</div>Imagem</div>
+                    <div class="quadro"><div class="img-icone">&#128247;</div>Imagem</div>
+                    <div class="quadro"><div class="img-icone">&#128247;</div>Imagem</div>
+                </div>
+                <div class="bloco rodape">RODAPE
+                    <small>Contatos | Redes sociais | Lojas (matriz + filiais) | Servicos</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- WIREFRAME DA PAGINA SECUNDARIA -->
+        <div class="pagina">
+            <h2>Pagina Secundaria (marca)</h2>
+            <div class="tela">
+                <div class="bloco">CABECALHO
+                    <small>Nome da marca + subtitulo</small>
+                </div>
+                <div class="bloco menu">MENU PRINCIPAL
+                    <small>Links: Inicio | Apple | Samsung | Xiaomi | Motorola | Realme</small>
+                </div>
+                <div class="bloco">TITULO E TEXTO DA MARCA</div>
+                <div class="linha">
+                    <div class="quadro"><div class="img-icone">&#128241;</div>Modelo 1<br>Imagem + ficha + review</div>
+                    <div class="quadro"><div class="img-icone">&#128241;</div>Modelo 2<br>Imagem + ficha + review</div>
+                    <div class="quadro"><div class="img-icone">&#128241;</div>Modelo 3<br>Imagem + ficha + review</div>
+                </div>
+                <div class="bloco destaque-bloco">REVIEW DOS MODELOS
+                    <small>(texto de review em cada modelo)</small>
+                </div>
+                <div class="bloco rodape">RODAPE
+                    <small>Contatos | Redes sociais | Lojas (matriz + filiais) | Servicos</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="legenda">
+        <h3>Observacoes do wireframe</h3>
+        <ul>
+            <li>O <strong>menu principal</strong> aparece em todas as paginas e liga uma pagina a outra.</li>
+            <li>O <strong>menu secundario</strong> e o <strong>texto de apresentacao</strong> aparecem somente na pagina principal.</li>
+            <li>Cada pagina secundaria mostra <strong>3 modelos</strong> de uma marca, com imagem e review.</li>
+            <li>O <strong>rodape</strong> e igual em todas as paginas (contatos, redes sociais, enderecos e servicos).</li>
+        </ul>
+    </div>
+
+</body>
+</html>
