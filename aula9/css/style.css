@@ -1,0 +1,221 @@
+/* Estilos gerais do site Jogos Olimpicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #0085C7 0%, #009F3D 50%, #DF0024 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+nav {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #FFD700;
+    color: #1a1a1a;
+}
+
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    color: #0085C7;
+    border-bottom: 3px solid #FFD700;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+main h3 {
+    color: #009F3D;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilo das listas */
+ul, ol {
+    margin: 15px 0 20px 30px;
+    padding-left: 15px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+ul li::marker {
+    color: #DF0024;
+    font-size: 1.2em;
+}
+
+ol li::marker {
+    color: #0085C7;
+    font-weight: bold;
+}
+
+dl {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #FFD700;
+    border-radius: 5px;
+}
+
+dt {
+    font-weight: bold;
+    color: #0085C7;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Estilo das tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0085C7;
+    padding: 10px;
+    caption-side: top;
+    text-align: left;
+}
+
+th {
+    background-color: #0085C7;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #006699;
+}
+
+td {
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+tr:nth-child(even) td {
+    background-color: #f0f4f8;
+}
+
+tr:hover td {
+    background-color: #fff3cd;
+    transition: background-color 0.2s;
+}
+
+.destaque-ouro {
+    background-color: #FFD700 !important;
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.destaque-prata {
+    background-color: #C0C0C0 !important;
+    font-weight: bold;
+}
+
+.destaque-bronze {
+    background-color: #CD7F32 !important;
+    color: white;
+    font-weight: bold;
+}
+
+/* Caixas de destaque */
+.destaque {
+    background-color: #fff8dc;
+    border-left: 5px solid #FFD700;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.info-box {
+    background-color: #e3f2fd;
+    border-left: 5px solid #0085C7;
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.aneis {
+    text-align: center;
+    font-size: 2em;
+    margin: 15px 0;
+    letter-spacing: 5px;
+}
