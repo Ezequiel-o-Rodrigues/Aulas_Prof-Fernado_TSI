@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário da Brasa - Portal de Notícias</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="pagina">
+
+    <header class="topo">
+        <h1>DIÁRIO DA BRASA</h1>
+        <p>Notícias que importam, na hora certa</p>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="noticia.html">Destaque</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+
+    <main>
+        <!-- HERO SECTION: layout assimetrico com CSS Grid -->
+        <h2 class="titulo-secao">Manchetes do dia</h2>
+        <section class="hero">
+            <article class="principal">
+                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?w=800" alt="Notícia principal">
+                <div class="legenda">
+                    <span class="tag">Capa</span>
+                    <h3>Cidade investe em tecnologia e moderniza transporte público</h3>
+                </div>
+            </article>
+
+            <article class="secundaria">
+                <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400" alt="Notícia secundária 1">
+                <div class="legenda">
+                    <span class="tag">Economia</span>
+                    <h3>Inflação recua e mercado reage positivamente</h3>
+                </div>
+            </article>
+
+            <article class="secundaria">
+                <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400" alt="Notícia secundária 2">
+                <div class="legenda">
+                    <span class="tag">Tecnologia</span>
+                    <h3>Nova fábrica gera mil empregos na região</h3>
+                </div>
+            </article>
+        </section>
+
+        <!-- GRADE DE NOTICIAS: repeat(auto-fill, minmax()) -->
+        <h2 class="titulo-secao">Últimas notícias</h2>
+        <section class="grade-noticias">
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=400" alt="Esportes">
+                <div class="corpo">
+                    <span class="tag">Esportes</span>
+                    <h3>Time da cidade vence clássico e lidera o campeonato</h3>
+                    <p>Com gol nos acréscimos, o time garantiu a vitória na noite de ontem.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>04/06/2026</span>
+                        <span>por Redação</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?w=400" alt="Cultura">
+                <div class="corpo">
+                    <span class="tag">Cultura</span>
+                    <h3>Festival de música movimenta o centro da cidade</h3>
+                    <p>Mais de 20 mil pessoas passaram pelo evento durante o fim de semana.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>03/06/2026</span>
+                        <span>por J. Souza</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=400" alt="Saúde">
+                <div class="corpo">
+                    <span class="tag">Saúde</span>
+                    <h3>Campanha de vacinação atinge 80% da meta</h3>
+                    <p>Secretaria de saúde prorroga prazo para quem ainda não se vacinou.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>03/06/2026</span>
+                        <span>por M. Lima</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=400" alt="Ciência">
+                <div class="corpo">
+                    <span class="tag">Ciência</span>
+                    <h3>Universidade local desenvolve projeto de energia limpa</h3>
+                    <p>Pesquisa promete reduzir custos de energia para a população.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>02/06/2026</span>
+                        <span>por R. Alves</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400" alt="Economia">
+                <div class="corpo">
+                    <span class="tag">Economia</span>
+                    <h3>Comércio espera aumento nas vendas no fim do mês</h3>
+                    <p>Lojistas estão otimistas com a chegada das datas comemorativas.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>02/06/2026</span>
+                        <span>por Redação</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cartao">
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=400" alt="Educação">
+                <div class="corpo">
+                    <span class="tag">Educação</span>
+                    <h3>Escolas da rede pública recebem novos laboratórios</h3>
+                    <p>Investimento beneficia mais de cinco mil estudantes na região.</p>
+                    <a href="noticia.html" class="leia">Leia mais &rarr;</a>
+                    <div class="meta">
+                        <span>01/06/2026</span>
+                        <span>por C. Dias</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-grid">
+            <div>
+                <h3>Diário da Brasa</h3>
+                <p>Seu portal de notícias com informação de qualidade desde 2010.</p>
+            </div>
+            <div>
+                <h3>Editorias</h3>
+                <ul>
+                    <li><a href="noticias.html">Política</a></li>
+                    <li><a href="noticias.html">Economia</a></li>
+                    <li><a href="noticias.html">Esportes</a></li>
+                    <li><a href="noticias.html">Cultura</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Institucional</h3>
+                <ul>
+                    <li><a href="sobre.html">Sobre nós</a></li>
+                    <li><a href="#">Trabalhe conosco</a></li>
+                    <li><a href="#">Anuncie</a></li>
+                    <li><a href="#">Expediente</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Contato</h3>
+                <p>Telefone: (62) 3030-4040</p>
+                <p>E-mail: redacao@diariodabrasa.com.br</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Diário da Brasa. Todos os direitos reservados. (Conteúdo fictício para fins acadêmicos.)</p>
+        </div>
+    </footer>
+
+</div>
+
+</body>
+</html>
