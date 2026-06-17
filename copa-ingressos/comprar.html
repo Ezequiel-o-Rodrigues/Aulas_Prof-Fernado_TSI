@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Ingressos - Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Copa do Mundo 2026</h1>
+    <p>Compre o seu ingresso de forma rápida e segura</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="comprar.html">Comprar Ingressos</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<main>
+    <h2>Compra de Ingressos</h2>
+
+    <p>
+        Preencha o formulário abaixo com os seus dados e os detalhes do ingresso desejado.
+        Após enviar o pedido, entraremos em contato para confirmar o pagamento.
+    </p>
+
+    <div class="destaque">
+        <strong>Importante:</strong> os campos com asterisco (*) são obrigatórios.
+    </div>
+
+    <!-- Formulario de compra: envia o pedido para o banco de dados -->
+    <form action="#" method="post">
+
+        <label for="nome">Nome completo: *</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+        <label for="cpf">CPF: *</label>
+        <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+
+        <label for="email">E-mail: *</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="telefone">Telefone / WhatsApp:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+        <label for="jogo">Escolha o jogo: *</label>
+        <select id="jogo" name="jogo" required>
+            <option value="">Selecione o jogo</option>
+            <option value="abertura">Jogo de Abertura</option>
+            <option value="grupos">Fase de Grupos</option>
+            <option value="oitavas">Oitavas de Final</option>
+            <option value="quartas">Quartas de Final</option>
+            <option value="semi">Semifinal</option>
+            <option value="final">Grande Final</option>
+        </select>
+
+        <label for="categoria">Categoria do ingresso: *</label>
+        <select id="categoria" name="categoria" required>
+            <option value="">Selecione a categoria</option>
+            <option value="cat1">Categoria 1 - R$ 1.200</option>
+            <option value="cat2">Categoria 2 - R$ 800</option>
+            <option value="cat3">Categoria 3 - R$ 450</option>
+            <option value="meia">Meia-entrada - R$ 225</option>
+        </select>
+
+        <label for="quantidade">Quantidade de ingressos:</label>
+        <input type="number" id="quantidade" name="quantidade" min="1" max="4" value="1">
+
+        <label for="data">Data preferida para retirada:</label>
+        <input type="date" id="data" name="data">
+
+        <label>Forma de pagamento:</label>
+        <div class="opcao">
+            <input type="radio" id="pix" name="pagamento" value="pix">
+            <label for="pix">PIX</label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="cartao" name="pagamento" value="cartao">
+            <label for="cartao">Cartão de crédito (até 12x)</label>
+        </div>
+        <div class="opcao">
+            <input type="radio" id="boleto" name="pagamento" value="boleto">
+            <label for="boleto">Boleto bancário</label>
+        </div>
+
+        <label for="obs">Observações:</label>
+        <textarea id="obs" name="obs" rows="4"
+            placeholder="Alguma observação sobre o seu pedido? Escreva aqui."></textarea>
+
+        <div class="opcao">
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Li e aceito os termos de compra. *</label>
+        </div>
+
+        <input type="submit" value="Enviar Pedido">
+
+    </form>
+</main>
+
+<footer>
+    <p>Ingressos Copa do Mundo 2026 &mdash; Venda oficial de ingressos</p>
+    <p>Telefone: (62) 3000-2026 | E-mail: vendas@ingressoscopa2026.com.br</p>
+    <p>&copy; 2026 Ingressos Copa 2026. Todos os direitos reservados. (Site fictício para fins acadêmicos.)</p>
+</footer>
+
+</body>
+</html>

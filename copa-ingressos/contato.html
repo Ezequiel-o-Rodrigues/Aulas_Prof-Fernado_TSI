@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Copa do Mundo 2026</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Copa do Mundo 2026</h1>
+    <p>Fale com a nossa equipe</p>
+</header>
+
+<nav>
+    <a href="index.html">Início</a>
+    <a href="comprar.html">Comprar Ingressos</a>
+    <a href="contato.html">Contato</a>
+</nav>
+
+<main>
+    <h2>Entre em Contato</h2>
+
+    <p>
+        Tem alguma dúvida sobre os ingressos, pagamento ou os jogos? Preencha o formulário
+        abaixo que a nossa equipe responde o mais rápido possível.
+    </p>
+
+    <!-- Formulario de contato: envia a mensagem para o banco de dados -->
+    <form action="#" method="post">
+
+        <label for="nome">Nome: *</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail: *</label>
+        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" placeholder="(00) 00000-0000">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="">Selecione o assunto</option>
+            <option value="duvida">Dúvida sobre ingressos</option>
+            <option value="pagamento">Pagamento</option>
+            <option value="cancelamento">Cancelamento</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="mensagem">Mensagem: *</label>
+        <textarea id="mensagem" name="mensagem" rows="6"
+            placeholder="Escreva aqui a sua mensagem" required></textarea>
+
+        <input type="submit" value="Enviar Mensagem">
+
+    </form>
+
+    <div class="destaque">
+        <strong>Atendimento:</strong> de segunda a sexta, das 8h às 18h.<br>
+        Telefone: (62) 3000-2026 &mdash; E-mail: vendas@ingressoscopa2026.com.br
+    </div>
+</main>
+
+<footer>
+    <p>Ingressos Copa do Mundo 2026 &mdash; Venda oficial de ingressos</p>
+    <p>Telefone: (62) 3000-2026 | E-mail: vendas@ingressoscopa2026.com.br</p>
+    <p>&copy; 2026 Ingressos Copa 2026. Todos os direitos reservados. (Site fictício para fins acadêmicos.)</p>
+</footer>
+
+</body>
+</html>
